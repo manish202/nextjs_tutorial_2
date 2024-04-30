@@ -1,0 +1,36 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    min-height:80vh;
+    padding: 10px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+}
+.left{
+    color: blue;
+    padding: 15px;
+}
+.left h1{
+    padding:10px 0;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+.left p{
+    padding:10px 0;
+}
+.img{
+    border-radius: 5px;
+}
+@media (max-width: 770px){
+    .hero{
+        flex-wrap: wrap;
+    }
+    .img{
+        max-width:80%;
+        margin: 10px auto;
+        display: block;
+    }
+}
